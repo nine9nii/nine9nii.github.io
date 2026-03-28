@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450">
+  <rect width="800" height="450" fill="#0a0a0a"/>
+  <!-- Outer box -->
+  <rect x="320" y="155" width="160" height="120" rx="6"
+    fill="none" stroke="white" stroke-width="2.5" opacity="0.9"/>
+  <!-- Inner box (container inside) -->
+  <rect x="344" y="178" width="60" height="44" rx="4"
+    fill="none" stroke="white" stroke-width="2" opacity="0.45"/>
+  <!-- Inner box 2 -->
+  <rect x="416" y="178" width="46" height="44" rx="4"
+    fill="none" stroke="white" stroke-width="2" opacity="0.45"/>
+  <!-- Bottom row single box -->
+  <rect x="344" y="232" width="118" height="24" rx="4"
+    fill="none" stroke="white" stroke-width="2" opacity="0.3"/>
+</svg>

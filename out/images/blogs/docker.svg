@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450">
+  <rect width="800" height="450" fill="#0a0a0a"/>
+  <!-- Docker whale body -->
+  <path d="M310 250 Q310 210 360 210 L580 210 Q610 210 610 240 Q610 265 585 270 Q595 285 580 295 Q560 310 480 310 L360 310 Q310 310 310 270 Z"
+    fill="none" stroke="white" stroke-width="2.5" stroke-linejoin="round" opacity="0.9"/>
+  <!-- Water spout -->
+  <path d="M540 210 Q545 185 560 175 Q575 185 580 210"
+    fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.9"/>
+  <!-- Container boxes on whale -->
+  <rect x="335" y="222" width="32" height="24" rx="3" fill="none" stroke="white" stroke-width="1.8" opacity="0.7"/>
+  <rect x="377" y="222" width="32" height="24" rx="3" fill="none" stroke="white" stroke-width="1.8" opacity="0.7"/>
+  <rect x="419" y="222" width="32" height="24" rx="3" fill="none" stroke="white" stroke-width="1.8" opacity="0.7"/>
+  <rect x="356" y="246" width="32" height="24" rx="3" fill="none" stroke="white" stroke-width="1.8" opacity="0.6"/>
+  <rect x="398" y="246" width="32" height="24" rx="3" fill="none" stroke="white" stroke-width="1.8" opacity="0.6"/>
+  <!-- Eye -->
+  <circle cx="575" cy="248" r="5" fill="white" opacity="0.9"/>
+  <circle cx="575" cy="248" r="2.5" fill="#0a0a0a" opacity="0.9"/>
+  <!-- Tail fin -->
+  <path d="M310 260 Q280 240 265 255 Q270 275 310 270"
+    fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.9"/>
+</svg>

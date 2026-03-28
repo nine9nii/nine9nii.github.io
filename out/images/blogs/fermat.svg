@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450">
+  <rect width="800" height="450" fill="#0a0a0a"/>
+
+  <!-- Outer ring — cyclic group visualisation -->
+  <circle cx="400" cy="225" r="155" fill="none" stroke="white" stroke-width="1" opacity="0.08"/>
+  <circle cx="400" cy="225" r="115" fill="none" stroke="white" stroke-width="1" opacity="0.06"/>
+
+  <!-- Points on the outer ring representing group elements -->
+  <circle cx="400" cy="70"  r="3.5" fill="white" opacity="0.5"/>
+  <circle cx="511" cy="101" r="3.5" fill="white" opacity="0.5"/>
+  <circle cx="572" cy="200" r="3.5" fill="white" opacity="0.5"/>
+  <circle cx="536" cy="330" r="3.5" fill="white" opacity="0.5"/>
+  <circle cx="400" cy="380" r="3.5" fill="white" opacity="0.5"/>
+  <circle cx="264" cy="330" r="3.5" fill="white" opacity="0.5"/>
+  <circle cx="228" cy="200" r="3.5" fill="white" opacity="0.5"/>
+  <circle cx="289" cy="101" r="3.5" fill="white" opacity="0.5"/>
+
+  <!-- Curved arrow showing cycle — arc from first point back around -->
+  <path d="M 413 71 A 155 155 0 1 1 387 71"
+    fill="none" stroke="white" stroke-width="1.5" stroke-dasharray="6 5"
+    stroke-linecap="round" opacity="0.25"/>
+
+  <!-- Arrow head at end of arc -->
+  <polygon points="387,71 378,60 396,58" fill="white" opacity="0.3"/>
+
+  <!-- Center formula -->
+  <text x="400" y="200" text-anchor="middle" font-family="Georgia, serif"
+        font-size="36" fill="white" opacity="0.92" letter-spacing="1">
+    a&#x207F;&#x207B;&#xB9; &#x2261; 1
+  </text>
+  <text x="400" y="245" text-anchor="middle" font-family="Georgia, serif"
+        font-size="20" fill="white" opacity="0.55" letter-spacing="2">
+    (mod p)
+  </text>
+
+  <!-- Subtle label — p is prime -->
+  <text x="400" y="295" text-anchor="middle" font-family="ui-monospace, monospace"
+        font-size="11" fill="white" opacity="0.25" letter-spacing="3">
+    p  PRIME  ·  gcd(a, p) = 1
+  </text>
+</svg>
