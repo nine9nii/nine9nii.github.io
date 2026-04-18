@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450">
+  <rect width="800" height="450" fill="#0a0a0a"/>
+  <!-- Connection lines -->
+  <line x1="400" y1="150" x2="280" y2="290" stroke="white" stroke-width="1.5" opacity="0.25"/>
+  <line x1="400" y1="150" x2="520" y2="290" stroke="white" stroke-width="1.5" opacity="0.25"/>
+  <line x1="280" y1="290" x2="520" y2="290" stroke="white" stroke-width="1.5" opacity="0.25"/>
+  <!-- Leader node (top) -->
+  <circle cx="400" cy="150" r="28" fill="none" stroke="white" stroke-width="2" opacity="0.9"/>
+  <circle cx="400" cy="150" r="8" fill="white" opacity="0.9"/>
+  <!-- Leader crown marker -->
+  <polyline points="388,118 394,126 400,118 406,126 412,118" fill="none" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.5"/>
+  <!-- Follower node (left) -->
+  <circle cx="280" cy="290" r="28" fill="none" stroke="white" stroke-width="2" opacity="0.6"/>
+  <circle cx="280" cy="290" r="5" fill="white" opacity="0.6"/>
+  <!-- Follower node (right) -->
+  <circle cx="520" cy="290" r="28" fill="none" stroke="white" stroke-width="2" opacity="0.6"/>
+  <circle cx="520" cy="290" r="5" fill="white" opacity="0.6"/>
+  <!-- Heartbeat pulses from leader -->
+  <circle cx="340" cy="220" r="3" fill="white" opacity="0.3"/>
+  <circle cx="460" cy="220" r="3" fill="white" opacity="0.3"/>
+  <!-- Log entries (small bars inside leader) -->
+  <rect x="385" y="142" width="12" height="3" rx="1" fill="white" opacity="0.5"/>
+  <rect x="385" y="148" width="18" height="3" rx="1" fill="white" opacity="0.5"/>
+  <rect x="385" y="154" width="10" height="3" rx="1" fill="white" opacity="0.5"/>
+</svg>

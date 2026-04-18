@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450">
+  <rect width="800" height="450" fill="#0a0a0a"/>
+  <!-- Grid lines -->
+  <line x1="200" y1="120" x2="200" y2="350" stroke="white" stroke-width="1.5" opacity="0.3"/>
+  <line x1="200" y1="350" x2="620" y2="350" stroke="white" stroke-width="1.5" opacity="0.3"/>
+  <!-- Y-axis ticks -->
+  <line x1="195" y1="180" x2="200" y2="180" stroke="white" stroke-width="1.5" opacity="0.3"/>
+  <line x1="195" y1="240" x2="200" y2="240" stroke="white" stroke-width="1.5" opacity="0.3"/>
+  <line x1="195" y1="300" x2="200" y2="300" stroke="white" stroke-width="1.5" opacity="0.3"/>
+  <!-- Horizontal grid -->
+  <line x1="200" y1="180" x2="620" y2="180" stroke="white" stroke-width="0.5" opacity="0.1"/>
+  <line x1="200" y1="240" x2="620" y2="240" stroke="white" stroke-width="0.5" opacity="0.1"/>
+  <line x1="200" y1="300" x2="620" y2="300" stroke="white" stroke-width="0.5" opacity="0.1"/>
+  <!-- Metrics line 1 -->
+  <polyline points="200,310 260,295 320,280 360,240 400,260 440,220 480,200 520,190 560,210 600,195"
+    fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="0.9"/>
+  <!-- Metrics line 2 -->
+  <polyline points="200,330 260,320 320,310 360,290 400,300 440,275 480,260 520,270 560,250 600,240"
+    fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="0.4"/>
+  <!-- Alert dot -->
+  <circle cx="480" cy="200" r="6" fill="none" stroke="white" stroke-width="1.5" opacity="0.7"/>
+  <circle cx="480" cy="200" r="2.5" fill="white" opacity="0.7"/>
+  <!-- Magnifying glass -->
+  <circle cx="540" cy="160" r="18" fill="none" stroke="white" stroke-width="2" opacity="0.5"/>
+  <line x1="553" y1="173" x2="568" y2="188" stroke="white" stroke-width="2" stroke-linecap="round" opacity="0.5"/>
+</svg>
