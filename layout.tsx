@@ -3,7 +3,7 @@ import { Instrument_Serif, Geist_Mono, DM_Sans } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/navbar";
 import Footer from "@/components/footer";
-import FlowLines from "@/components/flow-lines";
+import OceanWave from "@/components/ocean-wave";
 import { ViewTransitions } from "next-view-transitions";
 import { ThemeProvider } from "next-themes";
 
@@ -85,7 +85,7 @@ export default function RootLayout({
       >
         <ThemeProvider attribute="class" defaultTheme="light" enableSystem>
           <ViewTransitions>
-            <FlowLines />
+            <OceanWave />
             <Navbar />
             <div className="relative">
               {children}
