@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import { Instrument_Serif, Geist_Mono, DM_Sans } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/navbar";
+import Aurora from "@/components/aurora";
 import Footer from "@/components/footer";
-import OceanWave from "@/components/ocean-wave";
 import { ViewTransitions } from "next-view-transitions";
 import { ThemeProvider } from "next-themes";
 
@@ -85,7 +85,7 @@ export default function RootLayout({
       >
         <ThemeProvider attribute="class" defaultTheme="light" enableSystem>
           <ViewTransitions>
-            <OceanWave />
+            <Aurora />
             <Navbar />
             <div className="relative">
               {children}

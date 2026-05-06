@@ -28,7 +28,7 @@ export default async function Home() {
         {/* Hero */}
         <div>
           <h1
-            className="hero-enter text-primary font-normal leading-[0.88] tracking-[-0.045em] [font-family:var(--font-display)] text-[clamp(4rem,15vw,8.5rem)]"
+            className="hero-enter text-primary font-normal leading-[0.88] tracking-[-0.045em] [font-family:var(--font-display)] text-[clamp(2.25rem,9vw,5.5rem)]"
             style={{ animationDelay: "100ms" }}
           >
             Nikhil Shinde<span className="text-accent">.</span>
